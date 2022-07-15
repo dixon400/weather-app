@@ -1,7 +1,9 @@
+import { config } from "./config";
+
 const geoApiOptions = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '6d7efd3c7bmsh551dc404ca833c9p15ad1cjsn2ff476655c03',
+		'X-RapidAPI-Key': config["X-RapidAPI-Key"],
 		'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
 	}
 };
